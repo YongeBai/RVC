@@ -147,10 +147,10 @@ def load_hubert():
 def vc_single(
     input_audio,
     file_index,
-    sid=0,    
+    sid=0,
     f0_up_key=-6,
     f0_file=None,
-    f0_method="harvest",    
+    f0_method="harvest",
     index_rate=0.75,
     filter_radius=3,
     resample_sr=48000,
